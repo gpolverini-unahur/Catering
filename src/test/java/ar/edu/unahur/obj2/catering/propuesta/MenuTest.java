@@ -1,7 +1,9 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.propuesta;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import ar.edu.unahur.obj2.catering.propuesta.exception.DescuentoInvalidoException;
 
 import static org.junit.jupiter.api.Assertions.*;
 

@@ -1,7 +1,8 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.propuesta;
 
 import java.util.ArrayList;
 import java.util.List;
+import ar.edu.unahur.obj2.catering.propuesta.exception.DescuentoInvalidoException;
 
 public class Menu implements Propuesta {
   private String nombre;

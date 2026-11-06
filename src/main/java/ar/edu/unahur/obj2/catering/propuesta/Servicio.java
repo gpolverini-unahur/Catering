@@ -1,4 +1,6 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.propuesta;
+
+import ar.edu.unahur.obj2.catering.propuesta.exception.PrecioNegativoException;
 
 public class Servicio implements Propuesta {
   private String nombre;

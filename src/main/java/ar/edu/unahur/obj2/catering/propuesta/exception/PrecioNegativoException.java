@@ -1,4 +1,4 @@
-package ar.edu.unahur.obj2.catering;
+package ar.edu.unahur.obj2.catering.propuesta.exception;
 
 public class PrecioNegativoException extends RuntimeException {
   public PrecioNegativoException(String mensaje) {
