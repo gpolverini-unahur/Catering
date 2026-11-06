@@ -21,7 +21,7 @@ public class Servicio implements Propuesta {
     return precio;
   }
 
-  protected void actualizarPrecioInterno(double nuevoPrecio) {
+  public void actualizarPrecioInterno(double nuevoPrecio) {
     if (nuevoPrecio < 0) {
       throw new PrecioNegativoException(
           "El precio no puede ser negativo. Recibido: " + nuevoPrecio

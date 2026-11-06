@@ -28,7 +28,7 @@ public class Menu implements Propuesta {
     componentes.remove(propuesta);
   }
 
-  protected boolean contieneComponenteDirecto(Propuesta propuesta) {
+  public boolean contieneComponenteDirecto(Propuesta propuesta) {
     return componentes.contains(propuesta);
   }
 
